@@ -4,13 +4,13 @@
 }
 header{
     width: 100%;
-    background: rgb(235, 194, 61);
+    background: rgb(235, 194, 61); 
     height: 70px;
 }
 .ancho{
     width: 80%;
     height: 70px;
-    background: rgb(235, 194, 61);
+    /* background: rgb(235, 194, 61); */
     margin: auto;
 }
 .logo{
@@ -43,7 +43,7 @@ header{
 .transition{
     width: 70%;
     height: 70px;
-    background: rgb(235, 194, 61);
+   /* background: rgb(235, 194, 61); */
     float: left;
     text-align: right;
     padding-top: 24px;
@@ -125,4 +125,6 @@ input:focus{
     font-size: 20px;
     border: 10px ;
 }
-
+body{
+    background: radial-gradient(orange, grey)
+}
